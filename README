@@ -1,0 +1,29 @@
+# NetBox Network Discovery Plugin
+
+This plugin allows recursive network discovery using CDP and LLDP via SSH, starting from a seed device in NetBox.
+
+## Features
+
+- SSH-based discovery (`show cdp neighbors detail` and `show lldp neighbors detail`)
+- Recursive up to N levels deep
+- CSV download of discovered devices
+
+## Folder Structure
+
+netbox-network-discovery/
+├── setup.py
+├── README.md
+└── netbox_network_discovery/
+    ├── __init__.py
+    ├── plugin.py
+    ├── discovery.py
+    ├── urls.py
+    └── views.py
+
+## Installation
+
+1. Clone into NetBox local/ directory:
+   ```bash
+   git clone https://github.com/<REPO> /opt/netbox/local/netbox-network-discovery ```
+
+
