@@ -24,7 +24,7 @@ netbox-network-discovery/
 
 Clone into NetBox local/ directory:
    ```bash
-   git clone https://github.com/<REPO> /opt/netbox/local/netbox-network-discovery
+   git clone https://github.com/ras12221222/netbox-network-discovery /opt/netbox/local/netbox-network-discovery
    ```
 
 PLUGINS = ['netbox_network_discovery']
