@@ -26,4 +26,13 @@ netbox-network-discovery/
    ```bash
    git clone https://github.com/<REPO> /opt/netbox/local/netbox-network-discovery ```
 
+PLUGINS = ['netbox_network_discovery']
 
+http://<your-netbox>/plugins/netbox_network_discovery/discover/
+
+## Modify the environment variables
+NETBOX_URL = os.getenv("NETBOX_URL", "http://localhost:8000")
+NETBOX_TOKEN = os.getenv("NETBOX_TOKEN", "your-token")
+
+USERNAME = os.getenv("SSH_USERNAME", "admin")
+PASSWORD = os.getenv("SSH_PASSWORD", "password")
