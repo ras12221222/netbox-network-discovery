@@ -5,7 +5,7 @@ This plugin allows recursive network discovery using CDP and LLDP via SSH, start
 ## Features
 
 - SSH-based discovery (`show cdp neighbors detail` and `show lldp neighbors detail`)
-- Recursive up to N levels deep
+- Recursive up to N (N=2) levels deep
 - CSV download of discovered devices
 
 ## Folder Structure
